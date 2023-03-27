@@ -1,6 +1,5 @@
 # README
 
-
 # Restaurant API
 
 ## Entity Relational Diagram
