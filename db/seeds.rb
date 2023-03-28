@@ -5,22 +5,21 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
-
-estaurant.create([{
-    name: "OneStop",
+Restaurant.create([{
+    name: "ChomaSpot",
     address: "2040"
 },
 {
-    name: "SquareFootAble",
+    name: "FootSquare",
     address: "4050"
 
 },
 {
-    name: "Giants",
+    name: "OneStop",
     address: "1820"
 },
 {
-    name: "SquareMeet",
+    name: "Squarehouse",
     address: "3090"
 },
 {
@@ -34,19 +33,27 @@ Pizza.create([{
 ingredients: "Dough, Tomato Sauce, Cheese, Pepperoni"
 },
 {
+    name: "hawwian",
+    ingredients: "Dough, Tomato Sauce, Cheese, Pinnaple" 
+},
+{
     name: "nyamachoma",
     ingredients: "Dough, Tomato Sauce, Cheese, nyamachoma"
 },
-{
-   name: "vegetarian",
-   ingredients: "Dough, Tomato Sauce, Cheese, vegetable"
-}
+name: "vegetarian",
+ingredients: "Dough, Tomato Sauce, Cheese, vegetable"
+
 ])
 
 RestaurantPizza.create([{
     price: 12,
     pizza_id: 1,
     restaurant_id: 1
+},
+{
+    price: 8,
+    pizza_id: 2,
+    restaurant_id: 3
 },
 {
     price: 15,
